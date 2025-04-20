@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,http://127.0.0.1:5500/brasilia.html#500;1,600;1,700;1,800;1,900&display=swap');
+
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', 'sans-serif';
+}
+
+header {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    height: 72px;
+}
+
+header p {
+    color: #0077B6;
+    font-size: 20px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+header a, #container-menu-min a {
+    text-decoration: none;
+    color: #374151;
+}
+
+header a:hover {
+    color: #0077B6;
+}
+
+.button-underline {
+    height: 40px;
+    padding: 10px;
+    background-color: #fff;
+    border-width: 1px;
+    border-color: #0077B6;
+    color: #0077B6;
+    border-radius: 7px;
+}
+
+.button-underline:hover {
+    background-color: #0077B6;
+    color: #fff;
+}
+
+#button-menu {
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    border-color: #fff;
+    border-style: solid;
+    background-color: #fff;
+    border-radius: 7p"x;
+}
+
+#button-menu:hover {
+    color: #0077B6;
+    background-color: #F3F4F6;
+}
+
+.close-menu {
+    display: none;
+}
+
+#container-menu-min {
+    padding: 10px 25px 10px 25px;
+}
+
+#container-menu-min ul {
+    list-style: none;
+}
+
+#container-menu-min li {
+   padding: 10px;
+   border-radius: 10px;
+}
+
+#container-menu-min li:hover {
+    background-color: #F3F4F6;
+}
+
+#container-menu-min li:hover {
+    color: #0077B6;
+}
+
+#container-menu-min #button-menu-min:hover {
+    background-color: #E5F1F8;
+}
+
+#container-menu-min #link-menu-min {
+    color: #0077B6;
+}
+
+@media (min-width: 785px) {
+    #button-menu {
+        display: none;
+    }
+
+    #container-menu-min {
+        display: none;
+    }
+}
+
+@media (max-width: 785px) {
+    #nav-menu-max {
+        display: none;
+    }
+
+    header {
+        justify-content: space-between;
+        padding: 0 20px 0 30px;
+    }
+}

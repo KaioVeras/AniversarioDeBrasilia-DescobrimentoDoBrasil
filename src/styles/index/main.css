@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+.container {
+    width: 100%;
+    background-color: #F9FAFB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 30px;
+}
+
+#brasilian-card {
+    height: 550px;
+    width: 570px;
+    margin-bottom: 20px;
+    box-shadow: 4px 6px 16px 4px rgba(0, 0, 0, 0.20);
+    border-radius: 10px 10px 0px 0px;
+}
+
+button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+button:hover { 
+    transform: scale(1.02);
+}
+
+a {
+    text-decoration: none;
+}
+
+
+#logo-card {
+    width: 100.5%;
+    height: 40%;
+    border-radius: 10px 10px 0px 0px;
+    background-image: url(../../assets/imgBrasilia.svg);
+    background-size: cover;
+}
+
+#logoBrasil-card {
+    width: 100.5%;
+    height: 40%;
+    border-radius: 10px 10px 0px 0px;
+    background-image: url(../../assets/imgBrasil.svg);
+    background-size: cover;
+}
+
+#title-card {
+    width: 100%;
+    background-color: #CAF0F8;
+    padding: 30px 20px 30px 20px;
+}
+
+#title-card p {
+    font-size: 0.8rem;
+    color: #4B5563;
+}
+
+#title-card h4 {
+    font-size: 1.3rem;
+}
+
+#description-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+#description {
+    color: #374151;
+    font-size: 1rem;
+}
+
+#paragraph-project {
+    font-size: 1rem;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#description-card button {
+    height: 40px;
+    width: 100%;
+    background-color: #156B8D;
+    border: none;
+    margin-top: 10px;
+    color: #fff;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+
+@media (max-width: 1061px) {
+    .container {
+        flex-wrap: wrap;
+    }
+}
