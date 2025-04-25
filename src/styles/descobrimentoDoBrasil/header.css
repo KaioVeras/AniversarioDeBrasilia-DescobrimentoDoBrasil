@@ -10,7 +10,7 @@
 }
 
 header {
-    background-color: #fff;
+    background-color: #F5EBD8;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -19,7 +19,7 @@ header {
 }
 
 header p {
-    color: #0077B6;
+    color: #1D3557;
     font-size: 20px;
 }
 
@@ -32,11 +32,11 @@ header ul {
 
 header a, #container-menu-min a {
     text-decoration: none;
-    color: #374151;
+    color: #1D3557;
 }
 
 header a:hover {
-    color: #0077B6;
+    color: #458BB8;
 }
 
 .button-underline {
@@ -44,13 +44,13 @@ header a:hover {
     padding: 10px;
     background-color: #fff;
     border-width: 1px;
-    border-color: #0077B6;
-    color: #0077B6;
+    border-color: #1D3557;
+    color: #1D3557;
     border-radius: 7px;
 }
 
 .button-underline:hover {
-    background-color: #0077B6;
+    background-color: #1D3557;
     color: #fff;
 }
 

@@ -1,11 +1,210 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Descobrimento do Brasil</title>
-</head>
-<body>
-   
-</body>
+    <link
+      rel="shortcut icon"
+      href="/src/assets/favicon.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="/src/styles/descobrimentoDoBrasil/header.css"
+    />
+    <link rel="stylesheet" href="/src/styles/descobrimentoDoBrasil/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <p>Descobrimento do Brasil</p>
+
+      <nav id="nav-menu-max">
+        <ul>
+          <li><a href="#">Início</a></li>
+          <li><a href="#">História</a></li>
+          <li><a href="#">Arquitetura</a></li>
+          <li><a href="#">Eventos</a></li>
+          <li>
+            <a href="index.html">
+              <button class="button-underline">Voltar ao Início</button>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <button id="button-menu" onclick="openMenu()"></button>
+    </header>
+
+    <div id="container-menu-min">
+      <nav>
+        <ul>
+          <a href="#"><li>Início</li></a>
+          <a href="#"><li>A Navegação</li></a>
+          <a href="#"><li>Personagens</li></a>
+          <a href="#"><li>Legado</li></a>
+          <a href="index.html" id="link-menu-min"
+            ><li id="button-menu-min">Voltar ao Início</li></a
+          >
+        </ul>
+      </nav>
+    </div>
+
+    <main>
+      <section id="eventos-comemorativos">
+        <p id="title-eventos">Descobrimento do Brasil</p>
+        <p id="description-eventos">
+          1500 - A chegada portuguesa em terras brasileiras
+        </p>
+        <p>
+          Uma jornada através do Atlântico que mudou para sempre a história de
+          dois continentes.
+        </p>
+        <a href="#">
+          <button class="button-eventos">
+            <i class="fa-regular fa-calendar"></i> A Grande Navegação
+          </button>
+        </a>
+      </section>
+
+      <section id="historia-brasilia">
+        <p id="title-historia">Uma cidade única</p>
+        <p id="description-historia">
+          Projeta por Oscar Niemeyer e Lúcio Costa, Brasília é reconhecida
+          mundialmente por sua arquitetura <br />
+          modernista e planejamento urbano inovador.
+        </p>
+
+        <div id="container-cards">
+          <div class="card">
+            <i class="fa-solid fa-building-columns"></i>
+            <p class="title-card">Arquitetura Icônica</p>
+            <p class="description-card">
+              Construções revolucionárias que marcaram a história da arquitetura
+              mundial, projetadas por Oscar Niemeyer.
+            </p>
+          </div>
+
+          <div class="card">
+            <i class="fa-solid fa-location-dot"></i>
+            <p class="title-card">Planejamento Urbano</p>
+            <p class="description-card">
+              A cidade planejada no formato de avião, com seus eixos monumentais
+              e setorização inovadora.
+            </p>
+          </div>
+
+          <div class="card">
+            <i class="fa-regular fa-calendar"></i>
+            <p class="title-card">História Fascinante</p>
+            <p class="description-card">
+              De JK á atualidade, a trajetória da construção e desenvolvimento
+              da capital federal brasileira.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="container-linha-do-tempo">
+        <p id="title-linha-do-tempo">Linha do Tempo</p>
+        <div id="linha-do-tempo">
+          <ul>
+            <li>
+              <h4>1956</h4>
+              <p>
+                Juscelino Kubitschek assume a presidência com a promessa de
+                construir uma nova capital.
+              </p>
+            </li>
+            <li>
+              <h4>1957</h4>
+              <p>
+                O plano urbanístico de Lúcio Costa é escolhido e começam as
+                obras da nova capital.
+              </p>
+            </li>
+            <li>
+              <h4>1960</h4>
+              <p>
+                Inauguração oficial de Brasília em 21 de abril, com a
+                transferência da capital do Rio de Janeiro.
+              </p>
+            </li>
+            <li>
+              <h4>1987</h4>
+              <p>
+                Brasília é declarada Patrimônio Mundial da Humanidade pela
+                UNESCO.
+              </p>
+            </li>
+            <li>
+              <h4>2025</h4>
+              <p id="ultimo-p">
+                Brasília celebra seus 65 anos com uma nova série de eventos
+                culturais e comemorativos.s
+              </p>
+            </li>
+          </ul>
+
+          <a href="#">
+            <button class="button-underline">Ver História Completa</button>
+          </a>
+        </div>
+      </section>
+
+      <section id="container-comemoracao">
+        <p id="title-comemoracao">Participe das comemorações</p>
+        <p id="description-comemoracao">
+          Confira a programação completa e faça parte desta celebração histórica
+          dos 65 anos da capital federal.
+        </p>
+        <a href="#">
+          <button class="button-eventos">Ver Programação Completa</button>
+        </a>
+      </section>
+
+      <footer id="container-footer">
+        <div id="container-footer-1">
+          <div id="container-footer-1-1">
+            <p class="title-footer" id="title-footer-1">BRASÍLIA 2025</p>
+            <p id="description-footer">
+              Celebrando o aniversário da capital federal do Brasil, um marco da
+              arquitetura mordenista mundial
+            </p>
+          </div>
+          <div id="container-footer-1-2">
+            <p class="title-footer">Links Rápidos</p>
+            <a href="#"><p>Início</p></a>
+            <a href="#"><p>História</p></a>
+            <a href="#"><p>Arquitetura</p></a>
+            <a href="#"><p>Eventos</p></a>
+          </div>
+          <div id="container-footer-1-3">
+            <p class="title-footer">Redes Sociais</p>
+            <a href="https://www.instagram.com/kaiovitorpv/" target="_blank">
+              <i class="fa-brands fa-instagram"></i
+            ></a>
+            <a href="https://github.com/KaioVeras" target="_blank">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/kaioveras" target="_blank"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+          </div>
+        </div>
+
+        <hr />
+
+        <div id="container-footer-2">
+          <p>© 2025 - Aniversário de Brasília. Todos os direitos reservados.</p>
+        </div>
+      </footer>
+    </main>
+
+    <script src="src/javascript/script.js"></script>
+  </body>
 </html>
