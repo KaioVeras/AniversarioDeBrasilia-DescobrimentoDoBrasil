@@ -12,13 +12,13 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(to right, #15263a, #1f374b, #27465a);
-  height: 768px;
-  padding: 15px;
+  background-color: #3a688a;
+  height: 400px;
+  padding-top: 50px;
 }
 
 #title-eventos {
-  font-size: 90px;
+  font-size: 50px;
   text-align: center;
   color: #fff;
   margin-bottom: 24px;
@@ -27,7 +27,6 @@ main {
 #description-eventos {
   font-size: 24px;
   text-align: center;
-  margin-bottom: 32px;
   color: #fff;
 }
 
@@ -51,19 +50,22 @@ a {
 }
 
 #container-descoberta {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   height: 400px;
   padding: 0px 20px 0px 20px;
-  background-image: url(../../assets/background.svg);
+  background-color: #f5ebd8;
+  display: flex;
+  align-items: center;
 }
 
 #title-descoberta {
-  font-size: 46px;
+  font-size: 36px;
   color: #1d3557;
   margin-bottom: 15px;
+}
+
+img {
+  width: 45%;
+  border-radius: 10px;
 }
 
 #historia-brasilia {
@@ -84,7 +86,8 @@ a {
 #description-historia {
   color: #485971;
   font-size: 16px;
-  text-align: center;
+  text-align: left;
+  width: 90%;
 }
 
 #container-cards {
@@ -130,6 +133,7 @@ a {
 .title-card {
   font-size: 20px;
   font-weight: 600;
+  color: #1d3557;
 }
 
 .description-card {
@@ -168,7 +172,7 @@ a {
   border-left: 4px solid #1d3557;
   padding-left: 8px;
   color: #1d3557;
-  list-style-image: url(../../assets/listaEscura.svg);
+  list-style-image: url(../../../assets/listaEscura.svg);
   margin-bottom: 40px;
 }
 
@@ -242,12 +246,12 @@ li p {
 }
 
 #container-footer {
-  background-color: #111827;
+  background-color: #1d3557;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  color: #9ca3af;
+  color: #86b2bc;
   gap: 30px;
   padding: 30px 30px 30px 0px;
 }
@@ -267,28 +271,28 @@ hr {
   width: 300px;
 }
 
-#container-footer-1-2 {
-  margin-right: 100px;
-}
-
-#container-footer-1-2 a,
-#container-footer-1-3 a {
-  color: #9ca3af;
-}
-
-#container-footer-1-2 a:hover,
-#container-footer-1-3 a:hover {
-  color: #caf0f8;
-}
-
 .title-footer {
   font-size: 20px;
   color: #fff;
   margin-bottom: 10px;
 }
 
-#title-footer-1 {
-  color: #acedf8;
+#description-footer {
+  color: #86b2bc;
+}
+
+#container-footer-1-2 {
+  margin-right: 100px;
+}
+
+#container-footer-1-2 a,
+#container-footer-1-3 a {
+  color: #86b2bc;
+}
+
+#container-footer-1-2 a:hover,
+#container-footer-1-3 a:hover {
+  color: #caf0f8;
 }
 
 #container-footer-2 {

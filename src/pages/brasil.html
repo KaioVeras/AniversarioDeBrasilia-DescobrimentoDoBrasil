@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Descobrimento do Brasil</title>
+    <link
+      rel="shortcut icon"
+      href="/src/assets/favicon.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="/src/styles/descobrimentoDoBrasil/header.css"
+    />
+    <link rel="stylesheet" href="/src/styles/descobrimentoDoBrasil/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <p>Descobrimento do Brasil</p>
+
+      <nav id="nav-menu-max">
+        <ul>
+          <li><a href="#">Início</a></li>
+          <li><a href="../pages/navegacao.html">A Navegação</a></li>
+          <li><a href="../pages/personagens.html">Personagens</a></li>
+          <li><a href="#">Legado</a></li>
+          <li>
+            <a href="../../index.html">
+              <button class="button-underline">Voltar ao Início</button>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <button id="button-menu" onclick="openMenu()"></button>
+    </header>
+
+    <div id="container-menu-min">
+      <nav>
+        <ul>
+          <a href="#"><li>Início</li></a>
+          <a href="#"><li>A Navegação</li></a>
+          <a href="#"><li>Personagens</li></a>
+          <a href="#"><li>Legado</li></a>
+          <a href="index.html" id="link-menu-min"
+            ><li id="button-menu-min">Voltar ao Início</li></a
+          >
+        </ul>
+      </nav>
+    </div>
+
+    <main>
+      <section id="eventos-comemorativos">
+        <p id="title-eventos">Descobrimento do Brasil</p>
+        <p id="description-eventos">
+          1500 - A chegada portuguesa em terras brasileiras
+        </p>
+        <p id="description-eventos">
+          Uma jornada através do Atlântico que mudou para sempre a história de
+          dois continentes.
+        </p>
+        <a href="../pages/navegacao.html">
+          <button class="button-eventos">
+            <i class="fa-regular fa-calendar"></i> A Grande Navegação
+          </button>
+        </a>
+      </section>
+
+      <section id="container-descoberta">
+        <p id="title-descoberta">A descoberta do Novo Mundo</p>
+        <p id="description-historia">
+          Em 22 de abril de 1500, a frota de Pedro Álvares Cabral avistou o que
+          viria a ser o Brasil - um encontro que mudaria para sempre o curso da
+          história mundial. O que começou como uma expedição às Índias, resultou
+          na descoberta de uma terra rica e diversa que eventualmente se
+          tornaria a nação brasileira. Esta é a história da grande aventura
+          marítima portuguesa, dos personagens que dela participaram e do legado
+          que deixaram para as gerações futuras.
+        </p>
+      </section>
+
+      <section id="historia-brasilia">
+        <p id="title-historia">Uma Jornada Histórica</p>
+        <p id="description-historia">
+          Explore os diferentes aspectos da expedição que levou à descoberta do
+          Brasil e os eventos que se sucederam.
+        </p>
+
+        <div id="container-cards">
+          <div class="card">
+            <i class="fa-solid fa-ship"></i>
+            <p class="title-card">A Navegação</p>
+            <p class="description-card">
+              As caravelas, a rota marítima e os desafios enfrentados pela frota
+              de Pedro Álvares Cabral.
+            </p>
+            <a href="../pages/navegacao.html"
+              ><button class="button-underline">Explorar</button></a
+            >
+          </div>
+
+          <div class="card">
+            <i class="fa-solid fa-book"></i>
+            <p class="title-card">Personagens</p>
+            <p class="description-card">
+              Pedro Álvares Cabral, Pero Vaz de Caminha e outros protagonistas
+              da descoberta do Brasil.
+            </p>
+            <a href="../pages/personagens.html"
+              ><button class="button-underline">Conhecer</button></a
+            >
+          </div>
+
+          <div class="card">
+            <i class="fa-solid fa-map"></i>
+            <p class="title-card">Legado</p>
+            <p class="description-card">
+              O impacto histórico, cultural e social do descobrimento na
+              formação da identidade brasileira.
+            </p>
+            <button class="button-underline">Entender</button>
+          </div>
+        </div>
+      </section>
+
+      <section id="container-linha-do-tempo">
+        <p id="title-linha-do-tempo">Cronologia da Descoberta</p>
+        <div id="linha-do-tempo">
+          <ul>
+            <li>
+              <h4>8 de Março de 1500</h4>
+              <p>
+                Partida da frota de Pedro Álvares Cabral do Tejo em Lisboa, com
+                13 embarcações.
+              </p>
+            </li>
+            <li>
+              <h4>22 de Abril de 1500</h4>
+              <p>
+                Avistamento do Monte Pascoal e primeiro contato com a terra
+                brasileira.
+              </p>
+            </li>
+            <li>
+              <h4>23 de Abril de 1500</h4>
+              <p>
+                Nicolau Coelho é enviado a terra para fazer o primeiro contato
+                com os indígenas.
+              </p>
+            </li>
+            <li>
+              <h4>26 de Abril de 1500</h4>
+              <p>
+                Realização da primeira missa em solo brasileiro, celebrada por
+                Frei Henrique.
+              </p>
+            </li>
+            <li>
+              <h4>1 de Maio de 1500</h4>
+              <p id="ultimo-p">
+                Pero Vaz de Caminha conclui sua carta ao Rei D. Manuel I,
+                relatando a descoberta.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="container-comemoracao">
+        <div id="container-carta">
+          <i class="fa-solid fa-circle"></i>
+          <i class="fa-solid fa-circle"></i>
+        </div>
+        <p id="description-comemoracao">
+          "Esta terra, Senhor, me parece que da ponta que mais contra o sul
+          vimos até à outra ponta que contra o norte vem, de que nós deste porto
+          houvemos vista, será tamanha que haverá nela bem vinte ou vinte e
+          cinco léguas por costa."
+        </p>
+
+        <p id="mensao-honrosa">
+          — Pero Vaz de Caminha, Carta ao Rei D.Manuel I
+        </p>
+      </section>
+
+      <section id="container-explorar-historia">
+        <p id="title-explorar-historia">Explore Nossa História</p>
+        <p id="description-explorar-historia">
+          Descubra mais sobre a fascinante jornada que levou ao descobrimento do
+          Brasil e os eventos <br />
+          que moldaram nossa nação.
+        </p>
+
+        <div id="container-buttons">
+          <a href="../pages/navegacao.html">
+            <button class="button-underline">
+              <i class="fa-solid fa-ship"></i> A Navegação
+            </button>
+          </a>
+          <a href="#">
+            <button class="button-underline">
+              <i class="fa-solid fa-book"></i> Personagens
+            </button>
+          </a>
+          <a href="#">
+            <button class="button-underline">
+              <i class="fa-solid fa-map"></i> Legado
+            </button>
+          </a>
+        </div>
+      </section>
+
+      <footer id="container-footer">
+        <div id="container-footer-1">
+          <div id="container-footer-1-1">
+            <p class="title-footer" id="title-footer-1">
+              Descobrimento do Brasil
+            </p>
+            <p id="description-footer">
+              Explorando a história da chegada dos portugueses ao Brasil em 1500
+              e os eventos que moldaram nossa nação.
+            </p>
+          </div>
+          <div id="container-footer-1-2">
+            <p class="title-footer">Links Rápidos</p>
+            <a href="../pages/brasil.html"><p>Início</p></a>
+            <a href="../pages/navegacao.html"><p>A Navegação</p></a>
+            <a href="#"><p>Personagens</p></a>
+            <a href="#"><p>Legado</p></a>
+          </div>
+          <div id="container-footer-1-3">
+            <p class="title-footer">Redes Sociais</p>
+            <div id="container-footer-1-3-1">
+              <a href="https://www.instagram.com/kaiovitorpv/" target="_blank">
+                <i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="https://github.com/KaioVeras" target="_blank">
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/kaioveras" target="_blank"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <p>- Kaio Veras</p>
+            </div>
+
+            <div id="container-footer-1-3-1">
+              <a href="https://www.instagram.com/lfortesz/" target="_blank">
+                <i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="https://github.com/LucasFortesz" target="_blank">
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/lucas-fortes-856a78360/"
+                target="_blank"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <p>- Lucas Fortes</p>
+            </div>
+          </div>
+        </div>
+
+        <hr />
+
+        <div id="container-footer-2">
+          <p>© 2025 - Descobrimento do Brasil. Todos os direitos reservados.</p>
+        </div>
+      </footer>
+    </main>
+
+    <script src="../javascript/script.js"></script>
+  </body>
+</html>

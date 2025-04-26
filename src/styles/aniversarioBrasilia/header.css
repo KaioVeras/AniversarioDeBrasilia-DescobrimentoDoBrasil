@@ -16,6 +16,9 @@ header {
     align-items: center;
     gap: 30px;
     height: 72px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
 }
 
 header p {
@@ -74,7 +77,10 @@ header a:hover {
 }
 
 #container-menu-min {
-    padding: 10px 25px 10px 25px;
+    padding: 80px 25px 10px 25px;
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
 }
 
 #container-menu-min ul {
