@@ -14,7 +14,7 @@ function openMenu() {
   if (containerMenuMin.classList.contains("close-menu")) {
     icon.classList.remove("fa-bars");
     icon.classList.add("fa-x");
-    containerMenuMin.style.display = "flex";
+    containerMenuMin.style.display = "block";
   } else {
     icon.classList.remove("fa-x");
     icon.classList.add("fa-bars");

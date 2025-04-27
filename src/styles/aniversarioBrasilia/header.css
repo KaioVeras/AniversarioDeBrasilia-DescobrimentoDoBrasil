@@ -114,6 +114,14 @@ header a:hover {
   #container-menu-min {
     display: none;
   }
+
+  #container-menu-min nav {
+    display: none;
+  }
+
+  #container-menu-min {
+    padding: 0px;
+  }
 }
 
 @media (max-width: 785px) {
