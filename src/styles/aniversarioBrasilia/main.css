@@ -54,13 +54,14 @@ a {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding: 40px 0px 40px 0px;
 }
 
 #title-historia {
   font-size: 46px;
   color: #0077b6;
   margin-bottom: 15px;
-  margin-top: 50px;
+  text-align: center;
 }
 
 #description-historia {
@@ -90,7 +91,7 @@ a {
   gap: 20px;
   border-radius: 10px;
   box-shadow: 6px 6px 16px rgba(0, 0, 0, 0.2);
-  margin-bottom: 80px;
+  margin-bottom: 10px;
 }
 
 .card i {
@@ -179,6 +180,7 @@ li p {
 
 #title-comemoracao {
   font-size: 36px;
+  text-align: center;
 }
 
 #description-comemoracao {
@@ -269,5 +271,12 @@ hr {
 
   #container-footer-2 p {
     font-size: 15px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 465px) {
+  .card {
+    width: 92%;
   }
 }
