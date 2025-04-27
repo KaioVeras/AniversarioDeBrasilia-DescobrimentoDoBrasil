@@ -38,24 +38,6 @@ Este projeto acadêmico apresenta dois momentos cruciais da história
 
 3. Abra o arquivo `index.html` sem seu navegador
 
-## 📂 Estrutura do Projeto
-
-```
-design-showcase-brasil/
-│
-├── index.html
-│
-├── styles/
-│   ├── brasilia.css
-│   └── descobrimento.css
-│
-├── javascript/
-│   └── script.js
-│
-└── assets/
-    └── images/
-```
-
 ## 📱 Responsividade
 
 O projeto foi desenvolvido com foco em
