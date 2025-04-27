@@ -31,3 +31,9 @@ header p {
     font-size: 1rem;
   }
 }
+
+@media (max-width: 495px) {
+  header {
+    height: 300px;
+  }
+}
