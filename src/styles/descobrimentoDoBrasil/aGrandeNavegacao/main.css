@@ -74,13 +74,13 @@ img {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin: 50px 0px 40px 0px;
 }
 
 #title-historia {
   font-size: 46px;
   color: #1d3557;
-  margin-bottom: 15px;
-  margin-top: 50px;
+  margin-bottom: 30px;
 }
 
 #description-historia {
@@ -95,7 +95,6 @@ img {
   justify-content: center;
   align-items: center;
   gap: 20px;
-  margin-top: 70px;
   flex-wrap: wrap;
 }
 
@@ -108,10 +107,9 @@ img {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 20px;
   border-radius: 10px;
   box-shadow: 6px 6px 16px rgba(0, 0, 0, 0.2);
-  margin-bottom: 80px;
+  margin-bottom: 10px;
 }
 
 .card i {
@@ -166,6 +164,7 @@ img {
   color: #1d3557;
   margin-top: 50px;
   margin-bottom: 70px;
+  text-align: center;
 }
 
 #linha-do-tempo ul {
@@ -329,6 +328,7 @@ hr {
 
   #title-descoberta {
     font-size: 30px;
+    text-align: center;
   }
 }
 
@@ -360,5 +360,11 @@ hr {
 
   #description-comemoracao {
     width: 1000px;
+  }
+}
+
+@media (max-width: 465px) {
+  .card {
+    width: 92%;
   }
 }
