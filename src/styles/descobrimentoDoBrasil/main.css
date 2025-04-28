@@ -34,7 +34,7 @@ main {
   border-radius: 7px;
   background-color: #fff;
   border: none;
-  color: #0077b6;
+  color: #1d3557;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -349,6 +349,10 @@ hr {
   #container-footer-2 p {
     font-size: 0.8rem;
     text-align: center;
+  }
+
+  .card:hover {
+    transform: scale(1);
   }
 }
 
