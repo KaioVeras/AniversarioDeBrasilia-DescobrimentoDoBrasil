@@ -107,6 +107,7 @@ a {
   border-radius: 10px;
   box-shadow: 6px 6px 16px rgba(0, 0, 0, 0.2);
   margin-bottom: 20px;
+  gap: 10px;
 }
 
 .card i {

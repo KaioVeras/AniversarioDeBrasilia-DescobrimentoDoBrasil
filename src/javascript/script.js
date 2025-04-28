@@ -3,6 +3,7 @@ let buttonMenu = document.getElementById("button-menu");
 
 let icon = document.createElement("i");
 icon.classList.add("fa-solid", "fa-bars");
+icon.style.color = "#1d3557";
 
 buttonMenu.appendChild(icon);
 
